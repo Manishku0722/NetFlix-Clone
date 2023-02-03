@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+.NavBar li{
+  display: inline;
+  padding: 10px 30px;
+  list-style: none;
+}
+
+.NavBar{
+  text-align: center;
+}
+
+.nav-bar-class{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-bar-class:hover{
+  color: red;
+}
+
+.NavBar .active{
+  color: skyblue;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
